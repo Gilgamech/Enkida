@@ -24,7 +24,7 @@
 [string]$PowerShiriName = "Enkida"; #This can be changed with Add-SpeechCommands. 
 write-host -f y "Closing this window will make $PowerShiriName stop listening."
 
-[string]$PowerShiriFolder = "C:\Dropbox\PowerShiri"
+[string]$PowerShiriFolder = "C:\Dropbox\repos\PowerShiri"
  
  #$null =Add-Type -AssemblyName System.Speech
 $null =[Reflection.Assembly]::LoadWithPartialName("System.Speech");
